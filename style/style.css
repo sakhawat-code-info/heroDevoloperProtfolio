@@ -122,6 +122,9 @@ margin-top: 80px;
 .resume_single_post{
     border-bottom: 1px solid black;
 }
+.resume_single_post:last-child{
+    border-bottom: 0px solid black;
+}
 .resume_position{
     margin: 0px 0px 8px 0px;
 }
@@ -131,4 +134,36 @@ margin-top: 80px;
 .resume_btn{
     text-align: center;
     margin-top: 40px;
+}
+
+/* footer start  */
+
+.footer_container{
+    background-color: rgb(151, 103, 144);
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    padding: 70px;
+    gap: 50px;
+}
+
+.footer_connect ul {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+.footer_connect ul li{
+    list-style: none;
+    margin-right: 20px;
+}
+.footer_connect ul li a{
+    text-decoration: none;
+}
+.footer_massage input[type="text"], input[type="email"], textarea {
+    display: block;
+    width: 383px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 0px;
 }
