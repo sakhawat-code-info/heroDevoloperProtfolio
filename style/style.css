@@ -1,3 +1,63 @@
-h1{
-    color:red;
+/* common class */
+.btn_primary {
+    background-color: #FD6E0A;
+    color: #FFF;
+    font-weight: bolder;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* header nav section */
+
+.logo_red {
+    color: #FD6E0A;
+}
+
+.header_bg {
+    background-color: #FFF8F3;
+    padding: 30px 30px 0px 150px;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.nav_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_section ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav_section li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.nav_section li a {
+    text-decoration: none;
+}
+
+/* banar section start */
+.banar {
+    display: flex;
+    align-items: center;
+    padding: 30px 30px 0px 0px;
+}
+.banar_title {
+    margin: 0px;
+}
+.banar_heading {
+    font-size: 40px;
+    margin: 0px;
+}
+.banar_discription {
+    line-height: 30px;
+}
+.banar .profile_pic {
+    width: 500px;
 }
